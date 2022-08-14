@@ -2,5 +2,5 @@ en:
   js:
     category_custom_field:
       label: "%{field}: %{value}"
-      placeholder: "Enter a %{field}"
+      placeholder: "Define %{field}"
       heading: "%{field} settings"

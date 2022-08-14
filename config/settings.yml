@@ -3,10 +3,10 @@ plugins:
     default: true
     client: true
   category_custom_field_name:
-    default: 'my_field'
+    default: 'kcategoryinfo'
     client: true
   category_custom_field_type:
-    default: 'boolean'
+    default: 'json'
     client: true
     type: enum
     choices:
