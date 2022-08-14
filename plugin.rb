@@ -8,7 +8,7 @@
 enabled_site_setting :category_custom_field_enabled
 register_asset 'stylesheets/common.scss'
 
-register_asset 'kune-discourse-css.scss'  # add in custom configs 
+register_asset 'stylesheets/kune-discourse-css.scss'  # add in custom configs 
 
 
 ## 
