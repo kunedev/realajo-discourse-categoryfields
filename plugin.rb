@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-education-category-custom-field
+# name: discourse-category-custom-field (kune)
 # about: Add a custom field to a category
 # version: 0.1
 # author: Angus McLeod
