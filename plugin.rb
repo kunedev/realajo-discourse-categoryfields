@@ -8,6 +8,9 @@
 enabled_site_setting :category_custom_field_enabled
 register_asset 'stylesheets/common.scss'
 
+register_asset 'kune-discourse-css.scss'  # add in custom configs 
+
+
 ## 
 # type:        introduction
 # title:       Add a custom field to a category
