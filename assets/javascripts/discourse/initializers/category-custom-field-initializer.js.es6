@@ -29,7 +29,7 @@ export default {
        *              composer connector template.
        * references:  app/assets/javascripts/discourse/app/components/plugin-outlet.js.es6
        */
-      api.registerConnectorClass('category-custom-settings', 'category-custom-field-container', {
+      api.registerConnectorClass('category-heading', 'category-custom-field-onscreen', {
         setupComponent(attrs, component) {
           const category = attrs.category;
 
@@ -63,11 +63,11 @@ export default {
        * type:        step
        * number:      5.2
        * title:       Render a setting input
-       * description: Render a setting input in the category-custom-settings
+       * description: Render a setting input in the category-heading
        *              outlet. We also add a settings section title to make it
        *              easier for the fields to be found, especially if we're
        *              adding multiple fields.
-       * location:    plugins/discourse-category-custom-fields/assets/javascripts/discourse/connectors/category-custom-settings/category-custom-field-container.hbs
+       * location:    plugins/discourse-category-custom-fields/assets/javascripts/discourse/connectors/category-heading/category-custom-field-onscreen.hbs
        * references:  app/assets/javascripts/discourse/app/templates/components/edit-category-settings.hbs
        */
 
