@@ -29,6 +29,9 @@ export default {
        *              composer connector template.
        * references:  app/assets/javascripts/discourse/app/components/plugin-outlet.js.es6
        */
+
+      /*   REMOVING THIS FOR NOW, TO GET SETTINGS SCREEN WORKING AGAIN 
+
       api.registerConnectorClass('category-heading', 'category-custom-field-onscreen', {
         setupComponent(attrs, component) {
           const category = attrs.category;
@@ -59,6 +62,7 @@ export default {
         }
       });
 
+      END OF REMOVED-FOR-NOW */
 
       api.registerConnectorClass('category-heading', 'category-custom-field-container', {
         setupComponent(attrs, component) {
