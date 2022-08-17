@@ -63,8 +63,8 @@ export default {
       });
 
       END OF REMOVED-FOR-NOW */
-
-      api.registerConnectorClass('category-heading', 'category-custom-field-container', {
+ 
+      api.registerConnectorClass('category-custom-settings', 'category-custom-field-container', {
         setupComponent(attrs, component) {
           const category = attrs.category;
 
@@ -93,7 +93,7 @@ export default {
           }
         }
       });
-
+      
       /*
        * type:        step
        * number:      5.2
