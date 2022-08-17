@@ -6,7 +6,7 @@ import { fieldInputTypes } from '../lib/category-custom-field';
 // THIS IS FOR THE CATEGORY DISPLAY (READ-ONLY) SCREEN
 
 export default {
-  name: "category-custom-field-intializer",
+  name: "category-custom-field-initializer-onscreen",
   initialize(container) {
     const siteSettings = container.lookup('site-settings:main');
     const fieldName = siteSettings.category_custom_field_name;
@@ -54,16 +54,6 @@ export default {
           component.setProperties(Object.assign(props, fieldInputTypes(fieldType)));
         },
 
-        actions: {
-          onChangeField(fieldValue) {
-            // We set it in the custom_fields object as that is always
-            // serialized to the server and updated on the Category model if
-            // it is present.
-            this.set(`category.custom_fields.${fieldName}`, fieldValue);
-          }
-        }
-      });
-      
 
     });
   }
