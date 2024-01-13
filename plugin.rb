@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-category-custom-field (kune)
+# name: realajo-discourse-categoryfields
 # about: Add a custom field to a category
 # version: 0.1
 # author: Angus McLeod
@@ -8,7 +8,7 @@
 enabled_site_setting :category_custom_field_enabled
 register_asset 'stylesheets/common.scss'
 
-register_asset 'stylesheets/kune-discourse-css.scss'  # add in custom configs 
+register_asset 'stylesheets/realajo-discourse-css.scss'  # add in custom configs 
 
 
 ## 
