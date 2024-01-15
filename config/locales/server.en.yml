@@ -1,5 +1,5 @@
 en:
   site_settings:
     category_custom_field_enabled: true
-    category_custom_field_name: 'kcategoryinfo'
+    category_custom_field_name: 'rcategoryinfo'
     category_custom_field_type: 'json'

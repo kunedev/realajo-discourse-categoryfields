@@ -3,7 +3,7 @@ plugins:
     default: true
     client: true
   category_custom_field_name:
-    default: 'kcategoryinfo'
+    default: 'rcategoryinfo'
     client: true
   category_custom_field_type:
     default: 'json'
