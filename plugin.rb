@@ -6,9 +6,10 @@
 # author: Angus McLeod
 
 enabled_site_setting :category_custom_field_enabled
-register_asset 'stylesheets/common.scss'
 
-register_asset 'stylesheets/realajo-discourse-css.scss'  # add in custom configs 
+#register_asset 'stylesheets/common.scss'
+
+#register_asset 'stylesheets/realajo-discourse-css.scss'  # add in custom configs 
 
 
 ## 
